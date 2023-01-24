@@ -67,6 +67,10 @@ header h1 {
   color: #bbb;
 }
 
+.task i.active {
+  color: red;
+}
+
 .filter {
   width: 640px;
   text-align: right;
