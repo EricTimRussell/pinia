@@ -13,6 +13,7 @@ export const useTaskStore = defineStore('taskStore', {
       return this.tasks.length
     }
   },
+
   actions: {
     async getTasks() {
       this.loading = true
